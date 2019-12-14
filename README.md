@@ -13,7 +13,7 @@ In this project I used **[Miller-Rabin](https://en.wikipedia.org/wiki/Miller%E2%
     
     * **RandomBigInteger** function takes two inputs i.e., _start_ and _end_ (BigInteger type) integer limit to generate             randomly BigInteger within the specified range (In this program I include the fuction but I did not used this, if you         want you can use this function in your program).
     
-  * **BigIntegerPrimeTest** class contains the **IsProbablePrime** function which takes two input one is _source_ (BigInteger     type, Integer that you want to test for **Primality**) and other one is the [_certainty_]                 (https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) (int type, the number of rounds of testing to perform), and it returns **true** (number is prime) or **false** (number is not prime) value. 
+  * **BigIntegerPrimeTest** class contains the **IsProbablePrime** function which takes two input one is _source_ (BigInteger     type, Integer that you want to test for **Primality**) and other one is the [certainty]                (https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) (int type, the number of rounds of testing to perform), and it returns **true** (number is prime) or **false** (number is not prime) value. 
   
   ## Compile and Run
   
