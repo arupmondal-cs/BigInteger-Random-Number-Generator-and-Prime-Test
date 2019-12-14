@@ -15,6 +15,17 @@ In this project I used **[Miller-Rabin](https://en.wikipedia.org/wiki/Miller%E2%
     
   * **BigIntegerPrimeTest** class contains the **IsProbablePrime** function which takes two input one is _source_ (BigInteger     type, Integer that you want to test for **Primality**) and other one is the [_certainty_]                 (https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test) (int type, the number of rounds of testing to perform), and it returns **true** (number is prime) or **false** (number is not prime) value. 
   
-  ## Debug and Run
+  ## Compile and Run
   
+  Writing C# Programs on Linux:
+  
+  Mono is an open-source version of the .NET Framework which includes a C# compiler and runs on several operating systems, including various flavors of Linux and Mac OS. Check for [Mono](https://www.mono-project.com/download/stable/).
+  
+  To Compile:
+  
+  > **mcs -r:System.Numerics.dll BigIntRandomGen.cs**
+  
+  The compiler will create **"BigIntRandomGen.exe"**, which you can run using:
+  
+  > **mono BigIntRandomGen.exe**
   
