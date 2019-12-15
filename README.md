@@ -23,7 +23,9 @@ In this project I used **[Miller-Rabin](https://en.wikipedia.org/wiki/Miller%E2%
   
   To Compile:
   
-  > **mcs -r:System.Numerics.dll BigIntRandomGen.cs**
+  ```
+  **mcs -r:System.Numerics.dll BigIntRandomGen.cs**
+  ```
   
   The compiler will create **"BigIntRandomGen.exe"**, which you can run using:
   
