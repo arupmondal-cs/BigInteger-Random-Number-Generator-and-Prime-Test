@@ -35,8 +35,6 @@ In this project I used **[Miller-Rabin](https://en.wikipedia.org/wiki/Miller%E2%
   
   
   ## Execution with Pictures
-  
-[![Compile](https://github.com/arupmondal-cs/BigInteger-Random-Number-Generator-and-Prime-Test/blob/master/Picture/compile.png)]
       
   To Compile:
   
